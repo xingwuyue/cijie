@@ -22,6 +22,11 @@ export default function Root({ children }: PropsWithChildren) {
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <ScrollViewStyleReset />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `if ("serviceWorker" in navigator) { window.addEventListener("load", function () { navigator.serviceWorker.register("/sw.js").catch(function () {}); }); }`,
+          }}
+        />
         {headNodes}
       </head>
       <body {...bodyAttributes}>
