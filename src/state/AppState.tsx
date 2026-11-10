@@ -14,6 +14,8 @@ import {
   applyGrade,
   defaultState,
   ensurePlan,
+  markSkipKnown,
+  masterCurrentBand,
   resetProgress,
   setQuota as applyQuota,
   shiftDay as applyShift,
@@ -34,6 +36,8 @@ type AppContextValue = {
   setSpeech: (on: boolean) => void;
   moreDue: () => void;
   shiftDay: () => void;
+  skipKnown: (id: number) => void;
+  knowCurrentBand: () => void;
 };
 
 const AppContext = createContext<AppContextValue | null>(null);
@@ -124,6 +128,20 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
         setStored((prev) => (prev ? appendDue(ensurePlan(prev, todayRef.current, WORDS), todayRef.current, WORDS) : prev));
       },
       shiftDay: () => setStored((prev) => (prev ? applyShift(prev, 1) : prev)),
+      skipKnown: (id) => {
+        setStored((prev) => {
+          if (!prev) return prev;
+          const base = ensurePlan(prev, todayRef.current, WORDS);
+          return markSkipKnown(base, todayRef.current, WORDS, id);
+        });
+      },
+      knowCurrentBand: () => {
+        setStored((prev) => {
+          if (!prev) return prev;
+          const base = ensurePlan(prev, todayRef.current, WORDS);
+          return masterCurrentBand(base, todayRef.current, WORDS);
+        });
+      },
     }),
     [ready, error, state, today],
   );

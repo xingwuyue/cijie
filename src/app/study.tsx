@@ -155,6 +155,13 @@ export default function StudyScreen() {
           {KIND[current.kind]} · {position}/{total}
         </Text>
       </View>
+      <QuietButton
+        label="继续学到不熟为止"
+        onPress={() => {
+          releaseWebFocus();
+          router.push("/skip");
+        }}
+      />
       <View style={styles.track}>
         <View style={[styles.fill, { width: `${total ? (plan.done.length / total) * 100 : 0}%` }]} />
       </View>

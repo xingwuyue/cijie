@@ -43,6 +43,10 @@ export default function HomeScreen() {
   const pct = coverage.total ? Math.min(100, Math.round((coverage.introduced / coverage.total) * 100)) : 0;
 
   const goStudy = () => router.push("/study");
+  const goSkip = () => {
+    releaseWebFocus();
+    router.push("/skip");
+  };
   const nothingToDo =
     counts.freshTotal + counts.yesterdayTotal + counts.dueTotal === 0 && extraDue === 0;
 
@@ -92,6 +96,7 @@ export default function HomeScreen() {
             <Row label="间隔复习" left={counts.due} total={counts.dueTotal} empty="没有到期的旧词" />
             <Text style={styles.note}>顺序是昨日复习、间隔复习，然后是新词。</Text>
             <PrimaryButton label={started ? "继续学习" : "开始今天的学习"} onPress={goStudy} />
+            <QuietButton label="继续学到不熟为止" onPress={goSkip} />
           </>
         )}
         {goalComplete && (counts.due > 0 || extraDue > 0) ? (
@@ -108,6 +113,7 @@ export default function HomeScreen() {
         {goalComplete && counts.due === 0 && extraDue === 0 ? (
           <Text style={styles.note}>明天会有新词，也会复习今天新学的。</Text>
         ) : null}
+        {goalComplete || nothingToDo ? <QuietButton label="继续学到不熟为止" onPress={goSkip} /> : null}
       </View>
 
       <View style={styles.card}>

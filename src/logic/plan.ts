@@ -189,7 +189,7 @@ export function createPlan(state: PersistedState, today: string, index: IndexWor
   const introducedToday: number[] = [];
   for (const word of index) {
     const progress = state.words[String(word.id)];
-    if (!progress) continue;
+    if (!progress || progress.mastered) continue;
     if (progress.introducedOn === yesterday) yesterdayIds.push(word.id);
     if (progress.introducedOn === today) introducedToday.push(word.id);
   }
@@ -203,7 +203,7 @@ export function createPlan(state: PersistedState, today: string, index: IndexWor
   const dueAll: { id: number; next: string; rank: number }[] = [];
   for (const word of index) {
     const progress = state.words[String(word.id)];
-    if (!progress || yset.has(word.id)) continue;
+    if (!progress || progress.mastered || yset.has(word.id)) continue;
     if (progress.introducedOn >= yesterday) continue;
     if (progress.lastReviewedOn === today) continue;
     if (progress.nextReviewOn <= today) {
@@ -274,7 +274,109 @@ export function ensurePlan(
   } else if (next.plan.quota !== next.quota) {
     next = reconcileQuota(next, index);
   }
+  if (next.plan && planListsMastered(next)) {
+    next = retargetNewWords(next, today, index);
+  }
   return next === state ? state : next;
+}
+
+function planListsMastered(state: PersistedState): boolean {
+  return Boolean(state.plan?.newIds.some((id) => state.words[String(id)]?.mastered));
+}
+
+export function masteredRecord(today: string): WordProgress {
+  return {
+    introducedOn: today,
+    nextReviewOn: "9999-12-31",
+    intervalDays: 36500,
+    lastGrade: "known",
+    lastReviewedOn: today,
+    reviewCount: 0,
+    mastered: true,
+  };
+}
+
+export function nextUnintroduced(state: PersistedState, index: IndexWord[]): IndexWord | null {
+  for (const word of index) {
+    if (!state.words[String(word.id)]) return word;
+  }
+  return null;
+}
+
+export function countUnintroducedInBand(state: PersistedState, index: IndexWord[], band: BandId): number {
+  let count = 0;
+  for (const word of index) {
+    if (word.band === band && !state.words[String(word.id)]) count += 1;
+  }
+  return count;
+}
+
+function bandFullyIntroduced(state: PersistedState, index: IndexWord[], band: BandId): boolean {
+  let any = false;
+  for (const word of index) {
+    if (word.band !== band) continue;
+    any = true;
+    if (!state.words[String(word.id)]) return false;
+  }
+  return any;
+}
+
+export function advanceMasteredBands(state: PersistedState, index: IndexWord[]): PersistedState {
+  let band = state.currentBand;
+  while (band < 5 && bandFullyIntroduced(state, index, band)) {
+    band = (band + 1) as BandId;
+  }
+  if (band === state.currentBand) return state;
+  return { ...state, currentBand: band, pendingBand: null, advanceOn: null };
+}
+
+export function markSkipKnown(
+  state: PersistedState,
+  today: string,
+  index: IndexWord[],
+  id: number,
+): PersistedState {
+  const key = String(id);
+  if (state.words[key]) return state;
+  return advanceMasteredBands({ ...state, words: { ...state.words, [key]: masteredRecord(today) } }, index);
+}
+
+export function masterCurrentBand(
+  state: PersistedState,
+  today: string,
+  index: IndexWord[],
+): PersistedState {
+  const words = { ...state.words };
+  for (const word of index) {
+    if (word.band !== state.currentBand) continue;
+    if (words[String(word.id)]) continue;
+    words[String(word.id)] = masteredRecord(today);
+  }
+  return advanceMasteredBands({ ...state, words }, index);
+}
+
+export function retargetNewWords(
+  state: PersistedState,
+  today: string,
+  index: IndexWord[],
+): PersistedState {
+  const base = state.plan && state.plan.date === today ? state : { ...state, plan: createPlan(state, today, index) };
+  const plan = base.plan;
+  if (!plan) return state;
+  const introducedToday: number[] = [];
+  for (const word of index) {
+    const progress = base.words[String(word.id)];
+    if (progress && !progress.mastered && progress.introducedOn === today) introducedToday.push(word.id);
+  }
+  const exclude = new Set<number>([...plan.yesterdayIds, ...plan.dueIds, ...introducedToday]);
+  const fresh = takeNewWords(base, index, Math.max(base.quota - introducedToday.length, 0), exclude);
+  const newIds = [...introducedToday, ...fresh].slice(0, Math.max(base.quota, introducedToday.length));
+  if (sameIds(newIds, plan.newIds)) return base === state ? state : base;
+  const done = plan.done.filter((item) => item.kind !== "new" || newIds.includes(item.id));
+  for (const id of introducedToday) {
+    if (!done.some((item) => item.kind === "new" && item.id === id)) done.push({ id, kind: "new" });
+  }
+  return { ...base, plan: { ...plan, newIds, done } };
 }
 
 function requiredComplete(plan: DayPlan): boolean {

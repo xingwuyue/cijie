@@ -99,7 +99,9 @@ export default function WordsScreen() {
               >
                 <View style={styles.rowTop}>
                   <Text style={styles.word}>{item.word.word}</Text>
-                  <Text style={styles.when}>{due ? "今天到期" : formatMonthDay(item.progress.nextReviewOn)}</Text>
+                  <Text style={styles.when}>
+                  {item.progress.mastered ? "已掌握" : due ? "今天到期" : formatMonthDay(item.progress.nextReviewOn)}
+                </Text>
                 </View>
                 <Text style={styles.gloss} numberOfLines={open ? 3 : 1}>
                   {item.word.gloss || "暂无释义"}

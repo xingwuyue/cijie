@@ -8,6 +8,9 @@ import {
   createPlan,
   displayStreak,
   ensurePlan,
+  markSkipKnown,
+  masterCurrentBand,
+  nextUnintroduced,
   remainingCounts,
   reviewAccuracy,
   sanitize,
@@ -256,5 +259,68 @@ describe("quota and storage", () => {
     assert.deepEqual(clean.words, {});
     assert.equal(clean.plan?.newIds[0], 1);
     assert.equal(sanitize({ version: 2 }).quota, 15);
+    const kept = sanitize({
+      version: 1,
+      quota: 15,
+      words: {
+        "4": {
+          introducedOn: "2026-11-10",
+          nextReviewOn: "9999-12-31",
+          intervalDays: 36500,
+          lastGrade: "known",
+          lastReviewedOn: "2026-11-10",
+          reviewCount: 0,
+          mastered: true,
+        },
+      },
+    });
+    assert.equal(kept.words["4"]?.mastered, true);
+  });
+});
+
+describe("skip ahead", () => {
+  const today = "2026-11-10";
+  const index = [...words(4, 1), ...words(4, 2, 5)];
+
+  it("marks known words as mastered and does not queue them for tomorrow", () => {
+    let state = withPlan(defaultState(), today, index);
+    state = markSkipKnown(state, today, index, 1);
+    state = markSkipKnown(state, today, index, 2);
+    assert.equal(state.words["1"]?.mastered, true);
+    assert.equal(nextUnintroduced(state, index)?.id, 3);
+    const tomorrow = ensurePlan(state, addDays(today, 1), index);
+    assert.deepEqual(tomorrow.plan?.yesterdayIds, []);
+    assert.deepEqual(tomorrow.plan?.dueIds, []);
+    assert.equal(tomorrow.plan?.newIds[0], 3);
+  });
+
+  it("stops before an unfamiliar word and resumes the normal quota there", () => {
+    let state = withPlan({ ...defaultState(), quota: 10 }, today, index);
+    state = markSkipKnown(state, today, index, 1);
+    state = ensurePlan(state, today, index);
+    assert.equal(state.plan?.newIds[0], 2);
+    assert.ok(state.plan && state.plan.newIds.length <= 10);
+    assert.equal(state.words["2"], undefined);
+  });
+
+  it("marks the rest of the band known and unlocks the next band today", () => {
+    let state = withPlan(defaultState(), today, index);
+    state = masterCurrentBand(state, today, index);
+    assert.equal(state.currentBand, 2);
+    assert.equal(state.pendingBand, null);
+    assert.equal(state.words["1"]?.mastered, true);
+    assert.equal(state.words["4"]?.mastered, true);
+    assert.equal(state.words["5"], undefined);
+    const planned = ensurePlan(state, today, index);
+    assert.equal(planned.plan?.newIds.includes(1), false);
+    assert.equal(nextUnintroduced(planned, index)?.id, 5);
+    const tomorrow = ensurePlan(state, addDays(today, 1), index);
+    assert.equal(tomorrow.plan?.yesterdayIds.length, 0);
+  });
+
+  it("advances when the last word of a band is marked known one by one", () => {
+    let state = defaultState();
+    for (const id of [1, 2, 3, 4]) state = markSkipKnown(state, today, index, id);
+    assert.equal(state.currentBand, 2);
   });
 });

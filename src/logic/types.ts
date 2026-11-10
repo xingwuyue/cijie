@@ -37,6 +37,8 @@ export type WordProgress = {
   lastGrade: Grade | null;
   lastReviewedOn: string | null;
   reviewCount: number;
+  /** Already known before study. Kept out of the review queue. */
+  mastered?: boolean;
 };
 
 export type ReviewEvent = {
