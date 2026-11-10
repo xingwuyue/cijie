@@ -1,7 +1,7 @@
 import { router } from "expo-router";
 import { useState } from "react";
 import { Pressable, StyleSheet, Switch, Text, View } from "react-native";
-import { Frame, PrimaryButton, QuietButton } from "../components/ui";
+import { Frame, PrimaryButton, QuietButton, releaseWebFocus } from "../components/ui";
 import {
   ACCURACY_DAYS,
   BANDS,
@@ -29,7 +29,14 @@ export default function SettingsScreen() {
   const startedToday = state.plan?.done.some((item) => item.kind === "new") ?? false;
   return (
     <Frame>
-      <Pressable accessibilityRole="button" onPress={() => (router.canGoBack() ? router.back() : router.replace("/"))}>
+      <Pressable
+        accessibilityRole="button"
+        onPress={() => {
+          releaseWebFocus();
+          if (router.canGoBack()) router.back();
+          else router.replace("/");
+        }}
+      >
         <Text style={styles.back}>返回</Text>
       </Pressable>
       <Text style={styles.title}>设置</Text>

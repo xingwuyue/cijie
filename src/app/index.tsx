@@ -1,7 +1,7 @@
 import { router } from "expo-router";
 import { useEffect, useState } from "react";
 import { Platform, Pressable, StyleSheet, Text, View } from "react-native";
-import { Frame, PrimaryButton, QuietButton } from "../components/ui";
+import { Frame, PrimaryButton, QuietButton, releaseWebFocus } from "../components/ui";
 import { WORDS } from "../data/lexicon";
 import { formatChineseDate, formatMonthDay } from "../logic/dates";
 import {
@@ -124,11 +124,25 @@ export default function HomeScreen() {
         <Text style={styles.rule}>{unlockCopy(state, coverage, accuracy)}</Text>
       </View>
 
-      <Pressable accessibilityRole="button" onPress={() => router.push("/words")} style={styles.linkRow}>
+      <Pressable
+        accessibilityRole="button"
+        onPress={() => {
+          releaseWebFocus();
+          router.push("/words");
+        }}
+        style={styles.linkRow}
+      >
         <Text style={styles.linkLabel}>学过的词</Text>
         <Text style={styles.linkValue}>{learned}</Text>
       </Pressable>
-      <Pressable accessibilityRole="button" onPress={() => router.push("/settings")} style={styles.linkRow}>
+      <Pressable
+        accessibilityRole="button"
+        onPress={() => {
+          releaseWebFocus();
+          router.push("/settings");
+        }}
+        style={styles.linkRow}
+      >
         <Text style={styles.linkLabel}>设置</Text>
         <Text style={styles.linkValue}>每日 {state.quota} 个新词</Text>
       </Pressable>

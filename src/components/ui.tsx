@@ -15,6 +15,12 @@ import { theme, uiFont, wordFont } from "../theme";
 
 const pointer = Platform.OS === "web" ? ({ cursor: "pointer" } as ViewStyle) : undefined;
 
+export function releaseWebFocus() {
+  if (Platform.OS !== "web" || typeof document === "undefined") return;
+  const active = document.activeElement;
+  if (active instanceof HTMLElement) active.blur();
+}
+
 export function Frame({
   children,
   footer,
@@ -61,7 +67,10 @@ export function PrimaryButton({
     <Pressable
       accessibilityRole="button"
       disabled={disabled}
-      onPress={onPress}
+      onPress={() => {
+        releaseWebFocus();
+        onPress();
+      }}
       style={({ pressed }) => [
         styles.primary,
         pointer,
@@ -76,7 +85,14 @@ export function PrimaryButton({
 
 export function QuietButton({ label, onPress }: { label: string; onPress: () => void }) {
   return (
-    <Pressable accessibilityRole="button" onPress={onPress} style={[styles.quiet, pointer]}>
+    <Pressable
+      accessibilityRole="button"
+      onPress={() => {
+        releaseWebFocus();
+        onPress();
+      }}
+      style={[styles.quiet, pointer]}
+    >
       <Text style={styles.quietText}>{label}</Text>
     </Pressable>
   );
@@ -119,7 +135,10 @@ export function SpeakChip({ onPress }: { onPress: () => void }) {
     <Pressable
       accessibilityRole="button"
       accessibilityLabel="朗读"
-      onPress={onPress}
+      onPress={() => {
+        releaseWebFocus();
+        onPress();
+      }}
       style={({ pressed }) => [styles.speak, pointer, pressed && styles.speakPressed]}
     >
       <Text style={styles.speakText}>听</Text>
@@ -149,7 +168,10 @@ function GradeButton({
   return (
     <Pressable
       accessibilityRole="button"
-      onPress={onPress}
+      onPress={() => {
+        releaseWebFocus();
+        onPress();
+      }}
       style={({ pressed }) => [
         styles.grade,
         tone === "unknown" && styles.unknown,

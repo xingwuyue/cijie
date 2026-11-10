@@ -1,7 +1,7 @@
 import { router } from "expo-router";
 import { useEffect, useMemo, useState } from "react";
 import { FlatList, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
-import { Frame, SentenceText, SpeakChip } from "../components/ui";
+import { Frame, SentenceText, SpeakChip, releaseWebFocus } from "../components/ui";
 import { WORDS, ensureExamples, examplesFor, getWord, type WordEntry } from "../data/lexicon";
 import { formatMonthDay } from "../logic/dates";
 import type { Grade, WordProgress } from "../logic/types";
@@ -55,7 +55,14 @@ export default function WordsScreen() {
   return (
     <Frame scroll={false}>
       <View style={styles.pad}>
-        <Pressable accessibilityRole="button" onPress={() => (router.canGoBack() ? router.back() : router.replace("/"))}>
+        <Pressable
+          accessibilityRole="button"
+          onPress={() => {
+            releaseWebFocus();
+            if (router.canGoBack()) router.back();
+            else router.replace("/");
+          }}
+        >
           <Text style={styles.back}>返回</Text>
         </Pressable>
         <Text style={styles.title}>学过的词</Text>
@@ -85,23 +92,24 @@ export default function WordsScreen() {
           const open = openId === item.word.id;
           const due = item.progress.nextReviewOn <= app.today;
           return (
-            <Pressable
-              accessibilityRole="button"
-              onPress={() => setOpenId(open ? null : item.word.id)}
-              style={styles.row}
-            >
-              <View style={styles.rowTop}>
-                <Text style={styles.word}>{item.word.word}</Text>
-                <Text style={styles.when}>{due ? "今天到期" : formatMonthDay(item.progress.nextReviewOn)}</Text>
-              </View>
-              <Text style={styles.gloss} numberOfLines={open ? 3 : 1}>
-                {item.word.gloss || "暂无释义"}
-              </Text>
-              <Text style={styles.meta}>
-                {item.progress.lastGrade ? GRADE[item.progress.lastGrade] : "新学"} · 复习 {item.progress.reviewCount} 次
-              </Text>
+            <View style={styles.row}>
+              <Pressable
+                accessibilityRole="button"
+                onPress={() => setOpenId(open ? null : item.word.id)}
+              >
+                <View style={styles.rowTop}>
+                  <Text style={styles.word}>{item.word.word}</Text>
+                  <Text style={styles.when}>{due ? "今天到期" : formatMonthDay(item.progress.nextReviewOn)}</Text>
+                </View>
+                <Text style={styles.gloss} numberOfLines={open ? 3 : 1}>
+                  {item.word.gloss || "暂无释义"}
+                </Text>
+                <Text style={styles.meta}>
+                  {item.progress.lastGrade ? GRADE[item.progress.lastGrade] : "新学"} · 复习 {item.progress.reviewCount} 次
+                </Text>
+              </Pressable>
               {open ? <Detail word={item.word} speech={state.speechOn} ready={examplesReady} /> : null}
-            </Pressable>
+            </View>
           );
         }}
       />

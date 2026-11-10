@@ -1,7 +1,7 @@
 import { router } from "expo-router";
 import { useEffect, useRef, useState } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
-import { Frame, GradeBar, PrimaryButton, QuietButton, SentenceText, SpeakChip } from "../components/ui";
+import { Frame, GradeBar, PrimaryButton, QuietButton, SentenceText, SpeakChip, releaseWebFocus } from "../components/ui";
 import { examplesFor, getWord, ensureExamples, WORDS } from "../data/lexicon";
 import { countExtraDue, displayStreak, remainingCounts, sessionQueue } from "../logic/plan";
 import type { CardKind, Grade } from "../logic/types";
@@ -49,6 +49,7 @@ export default function StudyScreen() {
   const position = Math.min(total, plan.done.length + 1);
 
   const exit = () => {
+    releaseWebFocus();
     if (phase === "back") {
       setPhase("front");
       setShowZh(false);
