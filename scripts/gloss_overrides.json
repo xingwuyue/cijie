@@ -1,0 +1,2506 @@
+{
+  "can": {
+    "gloss": "能；可以",
+    "pos": "动词"
+  },
+  "will": {
+    "gloss": "会；将要",
+    "pos": "动词"
+  },
+  "would": {
+    "gloss": "会；愿意",
+    "pos": "动词"
+  },
+  "could": {
+    "gloss": "能够；可以",
+    "pos": "动词"
+  },
+  "should": {
+    "gloss": "应该",
+    "pos": "动词"
+  },
+  "may": {
+    "gloss": "可以；也许",
+    "pos": "动词"
+  },
+  "might": {
+    "gloss": "也许；可能",
+    "pos": "动词"
+  },
+  "must": {
+    "gloss": "必须",
+    "pos": "动词"
+  },
+  "get": {
+    "gloss": "得到；变得",
+    "pos": "动词"
+  },
+  "like": {
+    "gloss": "喜欢；像",
+    "pos": "动词"
+  },
+  "about": {
+    "gloss": "关于；大约",
+    "pos": "介词"
+  },
+  "make": {
+    "gloss": "做；使",
+    "pos": "动词"
+  },
+  "say": {
+    "gloss": "说",
+    "pos": "动词"
+  },
+  "time": {
+    "gloss": "时间",
+    "pos": "名词"
+  },
+  "see": {
+    "gloss": "看见",
+    "pos": "动词"
+  },
+  "people": {
+    "gloss": "人；人们",
+    "pos": "名词"
+  },
+  "know": {
+    "gloss": "知道",
+    "pos": "动词"
+  },
+  "new": {
+    "gloss": "新的",
+    "pos": "形容词"
+  },
+  "go": {
+    "gloss": "去",
+    "pos": "动词"
+  },
+  "think": {
+    "gloss": "认为；想",
+    "pos": "动词"
+  },
+  "take": {
+    "gloss": "拿；接受",
+    "pos": "动词"
+  },
+  "good": {
+    "gloss": "好的",
+    "pos": "形容词"
+  },
+  "only": {
+    "gloss": "只；仅仅",
+    "pos": "副词"
+  },
+  "after": {
+    "gloss": "在……之后",
+    "pos": "介词"
+  },
+  "before": {
+    "gloss": "在……之前",
+    "pos": "介词"
+  },
+  "first": {
+    "gloss": "第一；首先",
+    "pos": "形容词"
+  },
+  "two": {
+    "gloss": "二",
+    "pos": "数词"
+  },
+  "over": {
+    "gloss": "在上方；结束",
+    "pos": "介词"
+  },
+  "way": {
+    "gloss": "方法；路",
+    "pos": "名词"
+  },
+  "want": {
+    "gloss": "想要",
+    "pos": "动词"
+  },
+  "find": {
+    "gloss": "找到；发现",
+    "pos": "动词"
+  },
+  "well": {
+    "gloss": "好地；健康",
+    "pos": "副词"
+  },
+  "because": {
+    "gloss": "因为",
+    "pos": "连词"
+  },
+  "work": {
+    "gloss": "工作",
+    "pos": "名词"
+  },
+  "give": {
+    "gloss": "给",
+    "pos": "动词"
+  },
+  "man": {
+    "gloss": "男人",
+    "pos": "名词"
+  },
+  "even": {
+    "gloss": "甚至；即使",
+    "pos": "副词"
+  },
+  "need": {
+    "gloss": "需要",
+    "pos": "动词"
+  },
+  "really": {
+    "gloss": "真的",
+    "pos": "副词"
+  },
+  "come": {
+    "gloss": "来",
+    "pos": "动词"
+  },
+  "life": {
+    "gloss": "生活；生命",
+    "pos": "名词"
+  },
+  "right": {
+    "gloss": "对的；右边",
+    "pos": "形容词"
+  },
+  "year": {
+    "gloss": "年",
+    "pos": "名词"
+  },
+  "day": {
+    "gloss": "一天；白天",
+    "pos": "名词"
+  },
+  "never": {
+    "gloss": "从不",
+    "pos": "副词"
+  },
+  "love": {
+    "gloss": "爱",
+    "pos": "动词"
+  },
+  "show": {
+    "gloss": "给……看；展示",
+    "pos": "动词"
+  },
+  "world": {
+    "gloss": "世界",
+    "pos": "名词"
+  },
+  "look": {
+    "gloss": "看",
+    "pos": "动词"
+  },
+  "great": {
+    "gloss": "很好；大的",
+    "pos": "形容词"
+  },
+  "tell": {
+    "gloss": "告诉",
+    "pos": "动词"
+  },
+  "through": {
+    "gloss": "穿过；通过",
+    "pos": "介词"
+  },
+  "last": {
+    "gloss": "最后的",
+    "pos": "形容词"
+  },
+  "while": {
+    "gloss": "当……时；一会儿",
+    "pos": "连词"
+  },
+  "home": {
+    "gloss": "家",
+    "pos": "名词"
+  },
+  "best": {
+    "gloss": "最好的",
+    "pos": "形容词"
+  },
+  "place": {
+    "gloss": "地方",
+    "pos": "名词"
+  },
+  "feel": {
+    "gloss": "觉得；感觉",
+    "pos": "动词"
+  },
+  "start": {
+    "gloss": "开始",
+    "pos": "动词"
+  },
+  "still": {
+    "gloss": "仍然；还是",
+    "pos": "副词"
+  },
+  "back": {
+    "gloss": "回来；后面",
+    "pos": "副词"
+  },
+  "mean": {
+    "gloss": "意思是",
+    "pos": "动词"
+  },
+  "set": {
+    "gloss": "放置；一组",
+    "pos": "动词"
+  },
+  "light": {
+    "gloss": "光；轻的",
+    "pos": "名词"
+  },
+  "run": {
+    "gloss": "跑；经营",
+    "pos": "动词"
+  },
+  "state": {
+    "gloss": "状态；州",
+    "pos": "名词"
+  },
+  "use": {
+    "gloss": "使用",
+    "pos": "动词"
+  },
+  "part": {
+    "gloss": "部分",
+    "pos": "名词"
+  },
+  "hand": {
+    "gloss": "手",
+    "pos": "名词"
+  },
+  "long": {
+    "gloss": "长的",
+    "pos": "形容词"
+  },
+  "thing": {
+    "gloss": "东西",
+    "pos": "名词"
+  },
+  "child": {
+    "gloss": "孩子",
+    "pos": "名词"
+  },
+  "woman": {
+    "gloss": "女人",
+    "pos": "名词"
+  },
+  "point": {
+    "gloss": "要点；指",
+    "pos": "名词"
+  },
+  "call": {
+    "gloss": "打电话；称为",
+    "pos": "动词"
+  },
+  "leave": {
+    "gloss": "离开；留下",
+    "pos": "动词"
+  },
+  "put": {
+    "gloss": "放",
+    "pos": "动词"
+  },
+  "keep": {
+    "gloss": "保持",
+    "pos": "动词"
+  },
+  "let": {
+    "gloss": "让",
+    "pos": "动词"
+  },
+  "help": {
+    "gloss": "帮助",
+    "pos": "动词"
+  },
+  "ask": {
+    "gloss": "问",
+    "pos": "动词"
+  },
+  "turn": {
+    "gloss": "转；轮流",
+    "pos": "动词"
+  },
+  "try": {
+    "gloss": "尝试",
+    "pos": "动词"
+  },
+  "change": {
+    "gloss": "改变",
+    "pos": "动词"
+  },
+  "play": {
+    "gloss": "玩；播放",
+    "pos": "动词"
+  },
+  "move": {
+    "gloss": "移动",
+    "pos": "动词"
+  },
+  "live": {
+    "gloss": "生活；活着",
+    "pos": "动词"
+  },
+  "hold": {
+    "gloss": "握住；举行",
+    "pos": "动词"
+  },
+  "bring": {
+    "gloss": "带来",
+    "pos": "动词"
+  },
+  "happen": {
+    "gloss": "发生",
+    "pos": "动词"
+  },
+  "fuck": {
+    "gloss": "该死（粗口）",
+    "pos": "动词"
+  },
+  "fucking": {
+    "gloss": "该死的（粗口）",
+    "pos": "形容词"
+  },
+  "shit": {
+    "gloss": "糟糕（粗口）",
+    "pos": "名词"
+  },
+  "bitch": {
+    "gloss": "刻薄的话（粗口）",
+    "pos": "名词"
+  },
+  "dick": {
+    "gloss": "家伙（粗口）",
+    "pos": "名词"
+  },
+  "game": {
+    "gloss": "游戏；比赛",
+    "pos": "名词"
+  },
+  "full": {
+    "gloss": "满的；完整的",
+    "pos": "形容词"
+  },
+  "school": {
+    "gloss": "学校",
+    "pos": "名词"
+  },
+  "old": {
+    "gloss": "老的；旧的",
+    "pos": "形容词"
+  },
+  "end": {
+    "gloss": "结束；尽头",
+    "pos": "名词"
+  },
+  "high": {
+    "gloss": "高的",
+    "pos": "形容词"
+  },
+  "big": {
+    "gloss": "大的",
+    "pos": "形容词"
+  },
+  "small": {
+    "gloss": "小的",
+    "pos": "形容词"
+  },
+  "little": {
+    "gloss": "小的；少的",
+    "pos": "形容词"
+  },
+  "remix": {
+    "gloss": "重新混音",
+    "pos": "动词"
+  },
+  "organise": {
+    "gloss": "组织",
+    "pos": "动词"
+  },
+  "hell": {
+    "gloss": "地狱",
+    "pos": "名词"
+  },
+  "drug": {
+    "gloss": "药物；毒品",
+    "pos": "名词"
+  },
+  "kill": {
+    "gloss": "杀死",
+    "pos": "动词"
+  },
+  "gun": {
+    "gloss": "枪",
+    "pos": "名词"
+  },
+  "ass": {
+    "gloss": "驴；屁股（粗口）",
+    "pos": "名词"
+  },
+  "stupid": {
+    "gloss": "愚蠢的",
+    "pos": "形容词"
+  },
+  "facility": {
+    "gloss": "设施",
+    "pos": "名词"
+  },
+  "estate": {
+    "gloss": "房产；庄园",
+    "pos": "名词"
+  },
+  "dude": {
+    "gloss": "老兄",
+    "pos": "名词"
+  },
+  "instance": {
+    "gloss": "例子",
+    "pos": "名词"
+  },
+  "squad": {
+    "gloss": "小队",
+    "pos": "名词"
+  },
+  "highlight": {
+    "gloss": "突出；标出",
+    "pos": "动词"
+  },
+  "perspective": {
+    "gloss": "视角",
+    "pos": "名词"
+  },
+  "rape": {
+    "gloss": "强奸",
+    "pos": "动词"
+  },
+  "suicide": {
+    "gloss": "自杀",
+    "pos": "名词"
+  },
+  "bishop": {
+    "gloss": "主教",
+    "pos": "名词"
+  },
+  "coverage": {
+    "gloss": "报道；覆盖范围",
+    "pos": "名词"
+  },
+  "tweet": {
+    "gloss": "发短消息",
+    "pos": "动词"
+  },
+  "typically": {
+    "gloss": "通常",
+    "pos": "副词"
+  },
+  "manufacturer": {
+    "gloss": "制造商",
+    "pos": "名词"
+  },
+  "exclusive": {
+    "gloss": "专有的；独家的",
+    "pos": "形容词"
+  },
+  "retain": {
+    "gloss": "保留",
+    "pos": "动词"
+  },
+  "maintenance": {
+    "gloss": "维护",
+    "pos": "名词"
+  },
+  "visual": {
+    "gloss": "视觉的",
+    "pos": "形容词"
+  },
+  "defence": {
+    "gloss": "防御",
+    "pos": "名词"
+  },
+  "assessment": {
+    "gloss": "评估",
+    "pos": "名词"
+  },
+  "significantly": {
+    "gloss": "显著地",
+    "pos": "副词"
+  },
+  "boost": {
+    "gloss": "提高",
+    "pos": "动词"
+  },
+  "bonus": {
+    "gloss": "奖金",
+    "pos": "名词"
+  },
+  "honour": {
+    "gloss": "荣誉",
+    "pos": "名词"
+  },
+  "commitment": {
+    "gloss": "承诺",
+    "pos": "名词"
+  },
+  "sequence": {
+    "gloss": "顺序",
+    "pos": "名词"
+  },
+  "crystal": {
+    "gloss": "水晶",
+    "pos": "名词"
+  },
+  "effectively": {
+    "gloss": "有效地",
+    "pos": "副词"
+  },
+  "shield": {
+    "gloss": "保护；盾",
+    "pos": "动词"
+  },
+  "amendment": {
+    "gloss": "修正案",
+    "pos": "名词"
+  },
+  "mortgage": {
+    "gloss": "抵押贷款",
+    "pos": "名词"
+  },
+  "rally": {
+    "gloss": "集会",
+    "pos": "名词"
+  },
+  "healthcare": {
+    "gloss": "医疗",
+    "pos": "名词"
+  },
+  "output": {
+    "gloss": "产出",
+    "pos": "名词"
+  },
+  "enhance": {
+    "gloss": "提高",
+    "pos": "动词"
+  },
+  "exposure": {
+    "gloss": "接触；曝光",
+    "pos": "名词"
+  },
+  "mechanism": {
+    "gloss": "机制",
+    "pos": "名词"
+  },
+  "elite": {
+    "gloss": "精英",
+    "pos": "名词"
+  },
+  "curve": {
+    "gloss": "曲线",
+    "pos": "名词"
+  },
+  "segment": {
+    "gloss": "部分",
+    "pos": "名词"
+  },
+  "elsewhere": {
+    "gloss": "在别处",
+    "pos": "副词"
+  },
+  "alliance": {
+    "gloss": "联盟",
+    "pos": "名词"
+  },
+  "narrative": {
+    "gloss": "叙述",
+    "pos": "名词"
+  },
+  "mini": {
+    "gloss": "迷你的",
+    "pos": "形容词"
+  },
+  "respectively": {
+    "gloss": "分别地",
+    "pos": "副词"
+  },
+  "premium": {
+    "gloss": "优质的；加价",
+    "pos": "形容词"
+  },
+  "innovation": {
+    "gloss": "创新",
+    "pos": "名词"
+  },
+  "dramatic": {
+    "gloss": "巨大的；戏剧性的",
+    "pos": "形容词"
+  },
+  "margin": {
+    "gloss": "边缘；差额",
+    "pos": "名词"
+  },
+  "trailer": {
+    "gloss": "拖车",
+    "pos": "名词"
+  },
+  "scan": {
+    "gloss": "扫描",
+    "pos": "动词"
+  },
+  "equally": {
+    "gloss": "同样地",
+    "pos": "副词"
+  },
+  "fitness": {
+    "gloss": "健康",
+    "pos": "名词"
+  },
+  "potentially": {
+    "gloss": "可能",
+    "pos": "副词"
+  },
+  "subsequent": {
+    "gloss": "随后的",
+    "pos": "形容词"
+  },
+  "legacy": {
+    "gloss": "遗产；影响",
+    "pos": "名词"
+  },
+  "variation": {
+    "gloss": "变化",
+    "pos": "名词"
+  },
+  "petition": {
+    "gloss": "请愿",
+    "pos": "名词"
+  },
+  "violation": {
+    "gloss": "违反",
+    "pos": "名词"
+  },
+  "comprehensive": {
+    "gloss": "全面的",
+    "pos": "形容词"
+  },
+  "negotiate": {
+    "gloss": "谈判",
+    "pos": "动词"
+  },
+  "dimension": {
+    "gloss": "方面；尺寸",
+    "pos": "名词"
+  },
+  "equity": {
+    "gloss": "公平；股权",
+    "pos": "名词"
+  },
+  "substantial": {
+    "gloss": "大量的",
+    "pos": "形容词"
+  },
+  "collaboration": {
+    "gloss": "合作",
+    "pos": "名词"
+  },
+  "diversity": {
+    "gloss": "多样性",
+    "pos": "名词"
+  },
+  "preference": {
+    "gloss": "偏好",
+    "pos": "名词"
+  },
+  "stability": {
+    "gloss": "稳定",
+    "pos": "名词"
+  },
+  "dynamic": {
+    "gloss": "有活力的；动态的",
+    "pos": "形容词"
+  },
+  "involvement": {
+    "gloss": "参与",
+    "pos": "名词"
+  },
+  "similarly": {
+    "gloss": "类似地",
+    "pos": "副词"
+  },
+  "perception": {
+    "gloss": "看法；感知",
+    "pos": "名词"
+  },
+  "protocol": {
+    "gloss": "规程；协议",
+    "pos": "名词"
+  },
+  "enforce": {
+    "gloss": "执行",
+    "pos": "动词"
+  },
+  "guideline": {
+    "gloss": "指导原则",
+    "pos": "名词"
+  },
+  "bold": {
+    "gloss": "大胆的",
+    "pos": "形容词"
+  },
+  "patrol": {
+    "gloss": "巡逻",
+    "pos": "名词"
+  },
+  "gulf": {
+    "gloss": "海湾",
+    "pos": "名词"
+  },
+  "suspension": {
+    "gloss": "暂停",
+    "pos": "名词"
+  },
+  "consultant": {
+    "gloss": "顾问",
+    "pos": "名词"
+  },
+  "federation": {
+    "gloss": "联邦",
+    "pos": "名词"
+  },
+  "evaluation": {
+    "gloss": "评估",
+    "pos": "名词"
+  },
+  "initiate": {
+    "gloss": "发起",
+    "pos": "动词"
+  },
+  "acceptable": {
+    "gloss": "可接受的",
+    "pos": "形容词"
+  },
+  "mainstream": {
+    "gloss": "主流",
+    "pos": "名词"
+  },
+  "nomination": {
+    "gloss": "提名",
+    "pos": "名词"
+  },
+  "spectrum": {
+    "gloss": "范围",
+    "pos": "名词"
+  },
+  "virtually": {
+    "gloss": "几乎",
+    "pos": "副词"
+  },
+  "coalition": {
+    "gloss": "联盟",
+    "pos": "名词"
+  },
+  "notion": {
+    "gloss": "概念",
+    "pos": "名词"
+  },
+  "counsel": {
+    "gloss": "劝告；律师",
+    "pos": "名词"
+  },
+  "treasury": {
+    "gloss": "财政部",
+    "pos": "名词"
+  },
+  "toxic": {
+    "gloss": "有毒的",
+    "pos": "形容词"
+  },
+  "functional": {
+    "gloss": "实用的",
+    "pos": "形容词"
+  },
+  "animation": {
+    "gloss": "动画",
+    "pos": "名词"
+  },
+  "municipal": {
+    "gloss": "市政的",
+    "pos": "形容词"
+  },
+  "naval": {
+    "gloss": "海军的",
+    "pos": "形容词"
+  },
+  "facilitate": {
+    "gloss": "促进",
+    "pos": "动词"
+  },
+  "commentary": {
+    "gloss": "评论",
+    "pos": "名词"
+  },
+  "casual": {
+    "gloss": "随意的",
+    "pos": "形容词"
+  },
+  "dominant": {
+    "gloss": "占主导的",
+    "pos": "形容词"
+  },
+  "actively": {
+    "gloss": "积极地",
+    "pos": "副词"
+  },
+  "regulatory": {
+    "gloss": "监管的",
+    "pos": "形容词"
+  },
+  "subsequently": {
+    "gloss": "随后",
+    "pos": "副词"
+  },
+  "incentive": {
+    "gloss": "激励",
+    "pos": "名词"
+  },
+  "integration": {
+    "gloss": "整合",
+    "pos": "名词"
+  },
+  "cluster": {
+    "gloss": "一群；簇",
+    "pos": "名词"
+  },
+  "sensor": {
+    "gloss": "传感器",
+    "pos": "名词"
+  },
+  "legitimate": {
+    "gloss": "合法的",
+    "pos": "形容词"
+  },
+  "escort": {
+    "gloss": "护送",
+    "pos": "动词"
+  },
+  "classification": {
+    "gloss": "分类",
+    "pos": "名词"
+  },
+  "magical": {
+    "gloss": "神奇的",
+    "pos": "形容词"
+  },
+  "grid": {
+    "gloss": "网格",
+    "pos": "名词"
+  },
+  "diagnose": {
+    "gloss": "诊断",
+    "pos": "动词"
+  },
+  "jurisdiction": {
+    "gloss": "管辖权",
+    "pos": "名词"
+  },
+  "transit": {
+    "gloss": "交通",
+    "pos": "名词"
+  },
+  "lawsuit": {
+    "gloss": "诉讼",
+    "pos": "名词"
+  },
+  "portfolio": {
+    "gloss": "作品集",
+    "pos": "名词"
+  },
+  "ballot": {
+    "gloss": "选票",
+    "pos": "名词"
+  },
+  "criteria": {
+    "gloss": "标准",
+    "pos": "名词"
+  },
+  "legislature": {
+    "gloss": "立法机关",
+    "pos": "名词"
+  },
+  "premiere": {
+    "gloss": "首映",
+    "pos": "名词"
+  },
+  "tier": {
+    "gloss": "层级",
+    "pos": "名词"
+  },
+  "legally": {
+    "gloss": "合法地",
+    "pos": "副词"
+  },
+  "operational": {
+    "gloss": "运营中的",
+    "pos": "形容词"
+  },
+  "audit": {
+    "gloss": "审计",
+    "pos": "名词"
+  },
+  "bulk": {
+    "gloss": "大部分",
+    "pos": "名词"
+  },
+  "mandate": {
+    "gloss": "授权",
+    "pos": "名词"
+  },
+  "opt": {
+    "gloss": "选择",
+    "pos": "动词"
+  },
+  "loyalty": {
+    "gloss": "忠诚",
+    "pos": "名词"
+  },
+  "additionally": {
+    "gloss": "此外",
+    "pos": "副词"
+  },
+  "chronic": {
+    "gloss": "慢性的",
+    "pos": "形容词"
+  },
+  "diagnosis": {
+    "gloss": "诊断",
+    "pos": "名词"
+  },
+  "marijuana": {
+    "gloss": "大麻",
+    "pos": "名词"
+  },
+  "timeline": {
+    "gloss": "时间线",
+    "pos": "名词"
+  },
+  "portray": {
+    "gloss": "描绘",
+    "pos": "动词"
+  },
+  "inventory": {
+    "gloss": "库存",
+    "pos": "名词"
+  },
+  "reinforce": {
+    "gloss": "加强",
+    "pos": "动词"
+  },
+  "explosive": {
+    "gloss": "爆炸性的",
+    "pos": "形容词"
+  },
+  "electronics": {
+    "gloss": "电子产品",
+    "pos": "名词"
+  },
+  "graphics": {
+    "gloss": "图形",
+    "pos": "名词"
+  },
+  "sustainable": {
+    "gloss": "可持续的",
+    "pos": "形容词"
+  },
+  "reminder": {
+    "gloss": "提醒",
+    "pos": "名词"
+  },
+  "adoption": {
+    "gloss": "采用",
+    "pos": "名词"
+  },
+  "hybrid": {
+    "gloss": "混合的",
+    "pos": "形容词"
+  },
+  "graph": {
+    "gloss": "图表",
+    "pos": "名词"
+  },
+  "qualification": {
+    "gloss": "资格",
+    "pos": "名词"
+  },
+  "advisory": {
+    "gloss": "咨询的",
+    "pos": "形容词"
+  },
+  "parliamentary": {
+    "gloss": "议会的",
+    "pos": "形容词"
+  },
+  "structural": {
+    "gloss": "结构上的",
+    "pos": "形容词"
+  },
+  "indicator": {
+    "gloss": "指标",
+    "pos": "名词"
+  },
+  "colonial": {
+    "gloss": "殖民的",
+    "pos": "形容词"
+  },
+  "preliminary": {
+    "gloss": "初步的",
+    "pos": "形容词"
+  },
+  "compliance": {
+    "gloss": "遵守",
+    "pos": "名词"
+  },
+  "trader": {
+    "gloss": "交易者",
+    "pos": "名词"
+  },
+  "diabetes": {
+    "gloss": "糖尿病",
+    "pos": "名词"
+  },
+  "simultaneously": {
+    "gloss": "同时地",
+    "pos": "副词"
+  },
+  "acceptance": {
+    "gloss": "接受",
+    "pos": "名词"
+  },
+  "deficit": {
+    "gloss": "赤字",
+    "pos": "名词"
+  },
+  "historian": {
+    "gloss": "历史学家",
+    "pos": "名词"
+  },
+  "specification": {
+    "gloss": "规格",
+    "pos": "名词"
+  },
+  "advisor": {
+    "gloss": "顾问",
+    "pos": "名词"
+  },
+  "endorse": {
+    "gloss": "公开支持",
+    "pos": "动词"
+  },
+  "halloween": {
+    "gloss": "万圣节",
+    "pos": "名词"
+  },
+  "realistic": {
+    "gloss": "现实的",
+    "pos": "形容词"
+  },
+  "collector": {
+    "gloss": "收藏者",
+    "pos": "名词"
+  },
+  "trauma": {
+    "gloss": "创伤",
+    "pos": "名词"
+  },
+  "vertical": {
+    "gloss": "垂直的",
+    "pos": "形容词"
+  },
+  "bundle": {
+    "gloss": "捆；套装",
+    "pos": "名词"
+  },
+  "duration": {
+    "gloss": "持续时间",
+    "pos": "名词"
+  },
+  "intensity": {
+    "gloss": "强度",
+    "pos": "名词"
+  },
+  "realm": {
+    "gloss": "领域",
+    "pos": "名词"
+  },
+  "tide": {
+    "gloss": "潮汐",
+    "pos": "名词"
+  },
+  "adjustment": {
+    "gloss": "调整",
+    "pos": "名词"
+  },
+  "productivity": {
+    "gloss": "生产率",
+    "pos": "名词"
+  },
+  "southeast": {
+    "gloss": "东南",
+    "pos": "名词"
+  },
+  "canon": {
+    "gloss": "准则",
+    "pos": "名词"
+  },
+  "demo": {
+    "gloss": "演示",
+    "pos": "名词"
+  },
+  "observer": {
+    "gloss": "观察者",
+    "pos": "名词"
+  },
+  "hazard": {
+    "gloss": "危险",
+    "pos": "名词"
+  },
+  "retailer": {
+    "gloss": "零售商",
+    "pos": "名词"
+  },
+  "chancellor": {
+    "gloss": "校长",
+    "pos": "名词"
+  },
+  "kidney": {
+    "gloss": "肾脏",
+    "pos": "名词"
+  },
+  "judicial": {
+    "gloss": "司法的",
+    "pos": "形容词"
+  },
+  "statistical": {
+    "gloss": "统计的",
+    "pos": "形容词"
+  },
+  "analyse": {
+    "gloss": "分析",
+    "pos": "动词"
+  },
+  "pipeline": {
+    "gloss": "管道",
+    "pos": "名词"
+  },
+  "parameter": {
+    "gloss": "参数",
+    "pos": "名词"
+  },
+  "armor": {
+    "gloss": "盔甲",
+    "pos": "名词"
+  },
+  "nominee": {
+    "gloss": "被提名人",
+    "pos": "名词"
+  },
+  "bail": {
+    "gloss": "保释",
+    "pos": "名词"
+  },
+  "plead": {
+    "gloss": "恳求",
+    "pos": "动词"
+  },
+  "roster": {
+    "gloss": "名单",
+    "pos": "名词"
+  },
+  "sergeant": {
+    "gloss": "中士",
+    "pos": "名词"
+  },
+  "node": {
+    "gloss": "节点",
+    "pos": "名词"
+  },
+  "rotation": {
+    "gloss": "旋转",
+    "pos": "名词"
+  },
+  "migrant": {
+    "gloss": "移民",
+    "pos": "名词"
+  },
+  "sterling": {
+    "gloss": "英镑",
+    "pos": "名词"
+  },
+  "ore": {
+    "gloss": "矿石",
+    "pos": "名词"
+  },
+  "delta": {
+    "gloss": "三角洲",
+    "pos": "名词"
+  },
+  "spam": {
+    "gloss": "垃圾信息",
+    "pos": "名词"
+  },
+  "accordance": {
+    "gloss": "依照",
+    "pos": "名词"
+  },
+  "flexible": {
+    "gloss": "灵活的",
+    "pos": "形容词"
+  },
+  "goodness": {
+    "gloss": "天哪；善良",
+    "pos": "名词"
+  },
+  "iconic": {
+    "gloss": "标志性的",
+    "pos": "形容词"
+  },
+  "lesser": {
+    "gloss": "较小的",
+    "pos": "形容词"
+  },
+  "protective": {
+    "gloss": "保护的",
+    "pos": "形容词"
+  },
+  "reportedly": {
+    "gloss": "据报道",
+    "pos": "副词"
+  },
+  "rookie": {
+    "gloss": "新手",
+    "pos": "名词"
+  },
+  "restoration": {
+    "gloss": "修复",
+    "pos": "名词"
+  },
+  "builder": {
+    "gloss": "建筑工人",
+    "pos": "名词"
+  },
+  "mentor": {
+    "gloss": "导师",
+    "pos": "名词"
+  },
+  "generic": {
+    "gloss": "通用的",
+    "pos": "形容词"
+  },
+  "haul": {
+    "gloss": "运送",
+    "pos": "动词"
+  },
+  "subscriber": {
+    "gloss": "订阅者",
+    "pos": "名词"
+  },
+  "cannon": {
+    "gloss": "大炮",
+    "pos": "名词"
+  },
+  "prosecution": {
+    "gloss": "检控",
+    "pos": "名词"
+  },
+  "curriculum": {
+    "gloss": "课程",
+    "pos": "名词"
+  },
+  "electoral": {
+    "gloss": "选举的",
+    "pos": "形容词"
+  },
+  "uncertainty": {
+    "gloss": "不确定性",
+    "pos": "名词"
+  },
+  "setup": {
+    "gloss": "安排；设置",
+    "pos": "名词"
+  },
+  "overview": {
+    "gloss": "概述",
+    "pos": "名词"
+  },
+  "generator": {
+    "gloss": "发电机",
+    "pos": "名词"
+  },
+  "gem": {
+    "gloss": "宝石",
+    "pos": "名词"
+  },
+  "rotate": {
+    "gloss": "旋转",
+    "pos": "动词"
+  },
+  "shareholder": {
+    "gloss": "股东",
+    "pos": "名词"
+  },
+  "consultation": {
+    "gloss": "咨询",
+    "pos": "名词"
+  },
+  "touchdown": {
+    "gloss": "触地得分",
+    "pos": "名词"
+  },
+  "dental": {
+    "gloss": "牙科的",
+    "pos": "形容词"
+  },
+  "cognitive": {
+    "gloss": "认知的",
+    "pos": "形容词"
+  },
+  "minimal": {
+    "gloss": "最少的",
+    "pos": "形容词"
+  },
+  "molecular": {
+    "gloss": "分子的",
+    "pos": "形容词"
+  },
+  "pathetic": {
+    "gloss": "可怜的",
+    "pos": "形容词"
+  },
+  "monument": {
+    "gloss": "纪念碑",
+    "pos": "名词"
+  },
+  "placement": {
+    "gloss": "安置",
+    "pos": "名词"
+  },
+  "module": {
+    "gloss": "模块",
+    "pos": "名词"
+  },
+  "revelation": {
+    "gloss": "揭示",
+    "pos": "名词"
+  },
+  "dairy": {
+    "gloss": "乳制品",
+    "pos": "名词"
+  },
+  "assert": {
+    "gloss": "坚称",
+    "pos": "动词"
+  },
+  "citizenship": {
+    "gloss": "公民身份",
+    "pos": "名词"
+  },
+  "duo": {
+    "gloss": "二人组合",
+    "pos": "名词"
+  },
+  "marker": {
+    "gloss": "记号笔",
+    "pos": "名词"
+  },
+  "ancestor": {
+    "gloss": "祖先",
+    "pos": "名词"
+  },
+  "habitat": {
+    "gloss": "栖息地",
+    "pos": "名词"
+  },
+  "scam": {
+    "gloss": "骗局",
+    "pos": "名词"
+  },
+  "adaptation": {
+    "gloss": "改编；适应",
+    "pos": "名词"
+  },
+  "supervisor": {
+    "gloss": "主管",
+    "pos": "名词"
+  },
+  "commence": {
+    "gloss": "开始",
+    "pos": "动词"
+  },
+  "brutal": {
+    "gloss": "残酷的",
+    "pos": "形容词"
+  },
+  "consensus": {
+    "gloss": "共识",
+    "pos": "名词"
+  },
+  "monetary": {
+    "gloss": "货币的",
+    "pos": "形容词"
+  },
+  "purely": {
+    "gloss": "纯粹地",
+    "pos": "副词"
+  },
+  "seemingly": {
+    "gloss": "看似",
+    "pos": "副词"
+  },
+  "southwest": {
+    "gloss": "西南",
+    "pos": "名词"
+  },
+  "unlimited": {
+    "gloss": "无限的",
+    "pos": "形容词"
+  },
+  "casualty": {
+    "gloss": "伤亡",
+    "pos": "名词"
+  },
+  "retrieve": {
+    "gloss": "取回",
+    "pos": "动词"
+  },
+  "brew": {
+    "gloss": "酿造",
+    "pos": "动词"
+  },
+  "sculpture": {
+    "gloss": "雕塑",
+    "pos": "名词"
+  },
+  "align": {
+    "gloss": "对齐",
+    "pos": "动词"
+  },
+  "miner": {
+    "gloss": "矿工",
+    "pos": "名词"
+  },
+  "governance": {
+    "gloss": "治理",
+    "pos": "名词"
+  },
+  "passionate": {
+    "gloss": "热情的",
+    "pos": "形容词"
+  },
+  "surprisingly": {
+    "gloss": "出人意料地",
+    "pos": "副词"
+  },
+  "stance": {
+    "gloss": "立场",
+    "pos": "名词"
+  },
+  "intimate": {
+    "gloss": "亲密的",
+    "pos": "形容词"
+  },
+  "successor": {
+    "gloss": "继任者",
+    "pos": "名词"
+  },
+  "configuration": {
+    "gloss": "配置",
+    "pos": "名词"
+  },
+  "plea": {
+    "gloss": "恳求",
+    "pos": "名词"
+  },
+  "subsidiary": {
+    "gloss": "子公司",
+    "pos": "名词"
+  },
+  "ranch": {
+    "gloss": "牧场",
+    "pos": "名词"
+  },
+  "comparable": {
+    "gloss": "可比的",
+    "pos": "形容词"
+  },
+  "historically": {
+    "gloss": "在历史上",
+    "pos": "副词"
+  },
+  "unbelievable": {
+    "gloss": "难以置信的",
+    "pos": "形容词"
+  },
+  "freshman": {
+    "gloss": "大学一年级学生",
+    "pos": "名词"
+  },
+  "demographic": {
+    "gloss": "人口的",
+    "pos": "形容词"
+  },
+  "preview": {
+    "gloss": "预览",
+    "pos": "名词"
+  },
+  "faction": {
+    "gloss": "派系",
+    "pos": "名词"
+  },
+  "banker": {
+    "gloss": "银行家",
+    "pos": "名词"
+  },
+  "lineup": {
+    "gloss": "阵容",
+    "pos": "名词"
+  },
+  "disclosure": {
+    "gloss": "披露",
+    "pos": "名词"
+  },
+  "petty": {
+    "gloss": "琐碎的",
+    "pos": "形容词"
+  },
+  "optical": {
+    "gloss": "光学的",
+    "pos": "形容词"
+  },
+  "freely": {
+    "gloss": "自由地",
+    "pos": "副词"
+  },
+  "momentum": {
+    "gloss": "势头",
+    "pos": "名词"
+  },
+  "ninth": {
+    "gloss": "第九",
+    "pos": "数词"
+  },
+  "quantum": {
+    "gloss": "量子",
+    "pos": "名词"
+  },
+  "trustee": {
+    "gloss": "受托人",
+    "pos": "名词"
+  },
+  "detection": {
+    "gloss": "发现",
+    "pos": "名词"
+  },
+  "sailor": {
+    "gloss": "水手",
+    "pos": "名词"
+  },
+  "chant": {
+    "gloss": "反复呼喊",
+    "pos": "动词"
+  },
+  "caution": {
+    "gloss": "谨慎",
+    "pos": "名词"
+  },
+  "dividend": {
+    "gloss": "股息",
+    "pos": "名词"
+  },
+  "sequel": {
+    "gloss": "续集",
+    "pos": "名词"
+  },
+  "hispanic": {
+    "gloss": "西班牙裔的",
+    "pos": "形容词"
+  },
+  "straw": {
+    "gloss": "吸管",
+    "pos": "名词"
+  },
+  "static": {
+    "gloss": "静态的",
+    "pos": "形容词"
+  },
+  "doctrine": {
+    "gloss": "学说",
+    "pos": "名词"
+  },
+  "expertise": {
+    "gloss": "专业知识",
+    "pos": "名词"
+  },
+  "allegedly": {
+    "gloss": "据称",
+    "pos": "副词"
+  },
+  "independently": {
+    "gloss": "独立地",
+    "pos": "副词"
+  },
+  "intensive": {
+    "gloss": "密集的",
+    "pos": "形容词"
+  },
+  "northeast": {
+    "gloss": "东北",
+    "pos": "名词"
+  },
+  "politically": {
+    "gloss": "在政治上",
+    "pos": "副词"
+  },
+  "presumably": {
+    "gloss": "大概",
+    "pos": "副词"
+  },
+  "technological": {
+    "gloss": "技术的",
+    "pos": "形容词"
+  },
+  "traditionally": {
+    "gloss": "传统上",
+    "pos": "副词"
+  },
+  "feat": {
+    "gloss": "壮举",
+    "pos": "名词"
+  },
+  "majesty": {
+    "gloss": "威严",
+    "pos": "名词"
+  },
+  "median": {
+    "gloss": "中位数",
+    "pos": "名词"
+  },
+  "hatred": {
+    "gloss": "仇恨",
+    "pos": "名词"
+  },
+  "rib": {
+    "gloss": "肋骨",
+    "pos": "名词"
+  },
+  "aggregate": {
+    "gloss": "总计",
+    "pos": "名词"
+  },
+  "collision": {
+    "gloss": "碰撞",
+    "pos": "名词"
+  },
+  "prep": {
+    "gloss": "准备",
+    "pos": "名词"
+  },
+  "offset": {
+    "gloss": "抵消",
+    "pos": "动词"
+  },
+  "projection": {
+    "gloss": "预测",
+    "pos": "名词"
+  },
+  "mobility": {
+    "gloss": "流动性",
+    "pos": "名词"
+  },
+  "inclusion": {
+    "gloss": "包容",
+    "pos": "名词"
+  },
+  "bracket": {
+    "gloss": "括号",
+    "pos": "名词"
+  },
+  "township": {
+    "gloss": "镇区",
+    "pos": "名词"
+  },
+  "vault": {
+    "gloss": "金库",
+    "pos": "名词"
+  },
+  "fraction": {
+    "gloss": "一小部分",
+    "pos": "名词"
+  },
+  "effectiveness": {
+    "gloss": "有效性",
+    "pos": "名词"
+  },
+  "exceptional": {
+    "gloss": "杰出的",
+    "pos": "形容词"
+  },
+  "supportive": {
+    "gloss": "支持的",
+    "pos": "形容词"
+  },
+  "surgical": {
+    "gloss": "外科的",
+    "pos": "形容词"
+  },
+  "warfare": {
+    "gloss": "战争",
+    "pos": "名词"
+  },
+  "finale": {
+    "gloss": "终场",
+    "pos": "名词"
+  },
+  "frontier": {
+    "gloss": "前沿",
+    "pos": "名词"
+  },
+  "offender": {
+    "gloss": "违法者",
+    "pos": "名词"
+  },
+  "frustration": {
+    "gloss": "挫折",
+    "pos": "名词"
+  },
+  "repeal": {
+    "gloss": "废除",
+    "pos": "动词"
+  },
+  "specimen": {
+    "gloss": "样本",
+    "pos": "名词"
+  },
+  "canvas": {
+    "gloss": "帆布",
+    "pos": "名词"
+  },
+  "thanksgiving": {
+    "gloss": "感恩节",
+    "pos": "名词"
+  },
+  "watt": {
+    "gloss": "瓦特",
+    "pos": "名词"
+  },
+  "empower": {
+    "gloss": "使能够",
+    "pos": "动词"
+  },
+  "tribal": {
+    "gloss": "部落的",
+    "pos": "形容词"
+  },
+  "wax": {
+    "gloss": "蜡",
+    "pos": "名词"
+  },
+  "heir": {
+    "gloss": "继承人",
+    "pos": "名词"
+  },
+  "outrage": {
+    "gloss": "愤慨",
+    "pos": "名词"
+  },
+  "emotionally": {
+    "gloss": "在情绪上",
+    "pos": "副词"
+  },
+  "meantime": {
+    "gloss": "与此同时",
+    "pos": "副词"
+  },
+  "pharmaceutical": {
+    "gloss": "制药的",
+    "pos": "形容词"
+  },
+  "remainder": {
+    "gloss": "剩余部分",
+    "pos": "名词"
+  },
+  "fixture": {
+    "gloss": "固定装置",
+    "pos": "名词"
+  },
+  "hype": {
+    "gloss": "炒作",
+    "pos": "名词"
+  },
+  "stunt": {
+    "gloss": "特技",
+    "pos": "名词"
+  },
+  "feast": {
+    "gloss": "盛宴",
+    "pos": "名词"
+  },
+  "raven": {
+    "gloss": "渡鸦",
+    "pos": "名词"
+  },
+  "herald": {
+    "gloss": "预示",
+    "pos": "动词"
+  },
+  "coup": {
+    "gloss": "政变",
+    "pos": "名词"
+  },
+  "civic": {
+    "gloss": "公民的",
+    "pos": "形容词"
+  },
+  "enzyme": {
+    "gloss": "酶",
+    "pos": "名词"
+  },
+  "oversee": {
+    "gloss": "监督",
+    "pos": "动词"
+  },
+  "regiment": {
+    "gloss": "团",
+    "pos": "名词"
+  },
+  "wagon": {
+    "gloss": "马车",
+    "pos": "名词"
+  },
+  "brace": {
+    "gloss": "支撑",
+    "pos": "动词"
+  },
+  "trek": {
+    "gloss": "长途跋涉",
+    "pos": "名词"
+  },
+  "dimensional": {
+    "gloss": "维度的",
+    "pos": "形容词"
+  },
+  "thereby": {
+    "gloss": "因此",
+    "pos": "副词"
+  },
+  "terrace": {
+    "gloss": "露台",
+    "pos": "名词"
+  },
+  "limb": {
+    "gloss": "四肢",
+    "pos": "名词"
+  },
+  "chronicle": {
+    "gloss": "编年史",
+    "pos": "名词"
+  },
+  "mega": {
+    "gloss": "巨大的",
+    "pos": "形容词"
+  },
+  "receptor": {
+    "gloss": "受体",
+    "pos": "名词"
+  },
+  "predator": {
+    "gloss": "捕食者",
+    "pos": "名词"
+  },
+  "admiral": {
+    "gloss": "海军上将",
+    "pos": "名词"
+  },
+  "electron": {
+    "gloss": "电子",
+    "pos": "名词"
+  },
+  "exile": {
+    "gloss": "流放",
+    "pos": "名词"
+  },
+  "practitioner": {
+    "gloss": "从业者",
+    "pos": "名词"
+  },
+  "striker": {
+    "gloss": "前锋",
+    "pos": "名词"
+  },
+  "continental": {
+    "gloss": "大陆的",
+    "pos": "形容词"
+  },
+  "raider": {
+    "gloss": "袭击者",
+    "pos": "名词"
+  },
+  "administration": {
+    "gloss": "行政管理",
+    "pos": "名词"
+  },
+  "prior": {
+    "gloss": "先前的",
+    "pos": "形容词"
+  },
+  "institution": {
+    "gloss": "机构",
+    "pos": "名词"
+  },
+  "senate": {
+    "gloss": "参议院",
+    "pos": "名词"
+  },
+  "studio": {
+    "gloss": "工作室",
+    "pos": "名词"
+  },
+  "technical": {
+    "gloss": "技术的",
+    "pos": "形容词"
+  },
+  "protein": {
+    "gloss": "蛋白质",
+    "pos": "名词"
+  },
+  "mill": {
+    "gloss": "磨坊；工厂",
+    "pos": "名词"
+  },
+  "voter": {
+    "gloss": "选民",
+    "pos": "名词"
+  },
+  "cite": {
+    "gloss": "引用",
+    "pos": "动词"
+  },
+  "personnel": {
+    "gloss": "人员",
+    "pos": "名词"
+  },
+  "resistance": {
+    "gloss": "抵抗",
+    "pos": "名词"
+  },
+  "vessel": {
+    "gloss": "船只",
+    "pos": "名词"
+  },
+  "establishment": {
+    "gloss": "机构；建立",
+    "pos": "名词"
+  },
+  "researcher": {
+    "gloss": "研究员",
+    "pos": "名词"
+  },
+  "transaction": {
+    "gloss": "交易",
+    "pos": "名词"
+  },
+  "auto": {
+    "gloss": "汽车",
+    "pos": "名词"
+  },
+  "allege": {
+    "gloss": "声称",
+    "pos": "动词"
+  },
+  "fort": {
+    "gloss": "堡垒",
+    "pos": "名词"
+  },
+  "playoff": {
+    "gloss": "季后赛",
+    "pos": "名词"
+  },
+  "sexy": {
+    "gloss": "性感的",
+    "pos": "形容词"
+  },
+  "lieutenant": {
+    "gloss": "中尉",
+    "pos": "名词"
+  },
+  "ward": {
+    "gloss": "病房",
+    "pos": "名词"
+  },
+  "bullet": {
+    "gloss": "子弹",
+    "pos": "名词"
+  },
+  "provision": {
+    "gloss": "供应；条款",
+    "pos": "名词"
+  },
+  "memorial": {
+    "gloss": "纪念的",
+    "pos": "形容词"
+  },
+  "holder": {
+    "gloss": "持有人",
+    "pos": "名词"
+  },
+  "representation": {
+    "gloss": "代表",
+    "pos": "名词"
+  },
+  "utility": {
+    "gloss": "公用事业；效用",
+    "pos": "名词"
+  },
+  "prospect": {
+    "gloss": "前景",
+    "pos": "名词"
+  },
+  "provider": {
+    "gloss": "提供者",
+    "pos": "名词"
+  },
+  "loop": {
+    "gloss": "循环",
+    "pos": "名词"
+  },
+  "fleet": {
+    "gloss": "舰队",
+    "pos": "名词"
+  },
+  "creek": {
+    "gloss": "小溪",
+    "pos": "名词"
+  },
+  "patent": {
+    "gloss": "专利",
+    "pos": "名词"
+  },
+  "franchise": {
+    "gloss": "特许经营权",
+    "pos": "名词"
+  },
+  "defensive": {
+    "gloss": "防御的",
+    "pos": "形容词"
+  },
+  "intervention": {
+    "gloss": "干预",
+    "pos": "名词"
+  },
+  "charter": {
+    "gloss": "章程",
+    "pos": "名词"
+  },
+  "coordinate": {
+    "gloss": "协调",
+    "pos": "动词"
+  },
+  "dose": {
+    "gloss": "剂量",
+    "pos": "名词"
+  },
+  "acquisition": {
+    "gloss": "收购",
+    "pos": "名词"
+  },
+  "evaluate": {
+    "gloss": "评估",
+    "pos": "动词"
+  },
+  "entity": {
+    "gloss": "实体",
+    "pos": "名词"
+  },
+  "measurement": {
+    "gloss": "测量",
+    "pos": "名词"
+  },
+  "commonwealth": {
+    "gloss": "联邦",
+    "pos": "名词"
+  },
+  "convict": {
+    "gloss": "定罪",
+    "pos": "动词"
+  },
+  "compensation": {
+    "gloss": "补偿",
+    "pos": "名词"
+  },
+  "designate": {
+    "gloss": "指定",
+    "pos": "动词"
+  },
+  "constitutional": {
+    "gloss": "宪法的",
+    "pos": "形容词"
+  },
+  "cape": {
+    "gloss": "海角",
+    "pos": "名词"
+  },
+  "lap": {
+    "gloss": "一圈",
+    "pos": "名词"
+  },
+  "versus": {
+    "gloss": "对阵",
+    "pos": "介词"
+  },
+  "controversy": {
+    "gloss": "争议",
+    "pos": "名词"
+  },
+  "biological": {
+    "gloss": "生物的",
+    "pos": "形容词"
+  },
+  "slot": {
+    "gloss": "空档；槽",
+    "pos": "名词"
+  },
+  "footage": {
+    "gloss": "影像片段",
+    "pos": "名词"
+  },
+  "rider": {
+    "gloss": "骑手",
+    "pos": "名词"
+  },
+  "icon": {
+    "gloss": "图标",
+    "pos": "名词"
+  },
+  "tribute": {
+    "gloss": "致敬",
+    "pos": "名词"
+  },
+  "trophy": {
+    "gloss": "奖杯",
+    "pos": "名词"
+  },
+  "reign": {
+    "gloss": "统治",
+    "pos": "动词"
+  },
+  "corps": {
+    "gloss": "部队",
+    "pos": "名词"
+  },
+  "deploy": {
+    "gloss": "部署",
+    "pos": "动词"
+  },
+  "oral": {
+    "gloss": "口头的",
+    "pos": "形容词"
+  },
+  "arc": {
+    "gloss": "弧",
+    "pos": "名词"
+  },
+  "cowboy": {
+    "gloss": "牛仔",
+    "pos": "名词"
+  },
+  "rating": {
+    "gloss": "评分",
+    "pos": "名词"
+  },
+  "rod": {
+    "gloss": "杆",
+    "pos": "名词"
+  },
+  "syndrome": {
+    "gloss": "综合征",
+    "pos": "名词"
+  },
+  "backup": {
+    "gloss": "备份",
+    "pos": "名词"
+  },
+  "ultra": {
+    "gloss": "极端的",
+    "pos": "形容词"
+  },
+  "valve": {
+    "gloss": "阀门",
+    "pos": "名词"
+  },
+  "ion": {
+    "gloss": "离子",
+    "pos": "名词"
+  },
+  "casino": {
+    "gloss": "赌场",
+    "pos": "名词"
+  },
+  "anchor": {
+    "gloss": "锚；主播",
+    "pos": "名词"
+  },
+  "gospel": {
+    "gloss": "福音",
+    "pos": "名词"
+  },
+  "punk": {
+    "gloss": "朋克",
+    "pos": "名词"
+  },
+  "seller": {
+    "gloss": "卖家",
+    "pos": "名词"
+  },
+  "ugh": {
+    "gloss": "呃",
+    "pos": "感叹词"
+  },
+  "vintage": {
+    "gloss": "老式的；佳酿",
+    "pos": "形容词"
+  },
+  "metropolitan": {
+    "gloss": "大都市的",
+    "pos": "形容词"
+  },
+  "allegation": {
+    "gloss": "指控",
+    "pos": "名词"
+  },
+  "inter": {
+    "gloss": "在……之间",
+    "pos": "前缀"
+  },
+  "parish": {
+    "gloss": "教区",
+    "pos": "名词"
+  },
+  "haven": {
+    "gloss": "避风港",
+    "pos": "名词"
+  },
+  "commons": {
+    "gloss": "下议院",
+    "pos": "名词"
+  },
+  "hindu": {
+    "gloss": "印度教的",
+    "pos": "形容词"
+  },
+  "bomber": {
+    "gloss": "轰炸机",
+    "pos": "名词"
+  },
+  "cult": {
+    "gloss": "狂热崇拜",
+    "pos": "名词"
+  },
+  "ref": {
+    "gloss": "裁判",
+    "pos": "名词"
+  },
+  "bio": {
+    "gloss": "简介",
+    "pos": "名词"
+  },
+  "prof": {
+    "gloss": "教授",
+    "pos": "名词"
+  },
+  "tab": {
+    "gloss": "标签",
+    "pos": "名词"
+  },
+  "guinea": {
+    "gloss": "几内亚",
+    "pos": "名词"
+  },
+  "caribbean": {
+    "gloss": "加勒比地区",
+    "pos": "名词"
+  },
+  "firearm": {
+    "gloss": "枪支",
+    "pos": "名词"
+  },
+  "prophet": {
+    "gloss": "先知",
+    "pos": "名词"
+  },
+  "nigerian": {
+    "gloss": "尼日利亚的",
+    "pos": "形容词"
+  },
+  "connecticut": {
+    "gloss": "康涅狄格",
+    "pos": "名词"
+  },
+  "derby": {
+    "gloss": "德比",
+    "pos": "名词"
+  },
+  "prop": {
+    "gloss": "支撑",
+    "pos": "名词"
+  },
+  "titan": {
+    "gloss": "巨人",
+    "pos": "名词"
+  },
+  "adviser": {
+    "gloss": "顾问",
+    "pos": "名词"
+  },
+  "yankee": {
+    "gloss": "美国人",
+    "pos": "名词"
+  },
+  "pee": {
+    "gloss": "小便",
+    "pos": "动词"
+  },
+  "hull": {
+    "gloss": "船体",
+    "pos": "名词"
+  },
+  "dakota": {
+    "gloss": "达科他",
+    "pos": "名词"
+  },
+  "wont": {
+    "gloss": "习惯",
+    "pos": "名词"
+  },
+  "micro": {
+    "gloss": "微小的",
+    "pos": "形容词"
+  },
+  "stoke": {
+    "gloss": "添柴；激起",
+    "pos": "动词"
+  },
+  "shaw": {
+    "gloss": "灌木林",
+    "pos": "名词"
+  },
+  "broadway": {
+    "gloss": "百老汇",
+    "pos": "名词"
+  },
+  "dynamics": {
+    "gloss": "动态",
+    "pos": "名词"
+  },
+  "champ": {
+    "gloss": "冠军",
+    "pos": "名词"
+  },
+  "boo": {
+    "gloss": "发出嘘声",
+    "pos": "动词"
+  },
+  "dope": {
+    "gloss": "毒品（俚语）",
+    "pos": "名词"
+  },
+  "bailey": {
+    "gloss": "城堡外院",
+    "pos": "名词"
+  },
+  "nude": {
+    "gloss": "裸体的",
+    "pos": "形容词"
+  },
+  "chan": {
+    "gloss": "频道",
+    "pos": "名词"
+  },
+  "yup": {
+    "gloss": "是啊",
+    "pos": "感叹词"
+  },
+  "pakistani": {
+    "gloss": "巴基斯坦的",
+    "pos": "形容词"
+  },
+  "shitty": {
+    "gloss": "很差的（粗口）",
+    "pos": "形容词"
+  },
+  "panther": {
+    "gloss": "黑豹",
+    "pos": "名词"
+  },
+  "mod": {
+    "gloss": "改装",
+    "pos": "名词"
+  },
+  "hart": {
+    "gloss": "雄鹿",
+    "pos": "名词"
+  },
+  "ave": {
+    "gloss": "大街",
+    "pos": "名词"
+  },
+  "thee": {
+    "gloss": "你（古语）",
+    "pos": "代词"
+  },
+  "calory": {
+    "gloss": "卡路里",
+    "pos": "名词"
+  },
+  "sub": {
+    "gloss": "潜艇；替补",
+    "pos": "名词"
+  },
+  "suck": {
+    "gloss": "吸",
+    "pos": "动词"
+  },
+  "porn": {
+    "gloss": "色情内容",
+    "pos": "名词"
+  },
+  "assault": {
+    "gloss": "袭击",
+    "pos": "名词"
+  },
+  "asshole": {
+    "gloss": "讨厌鬼（粗口）",
+    "pos": "名词"
+  },
+  "pussy": {
+    "gloss": "猫咪（儿语）",
+    "pos": "名词"
+  },
+  "bloody": {
+    "gloss": "该死的（粗口）",
+    "pos": "形容词"
+  },
+  "cum": {
+    "gloss": "兼作",
+    "pos": "介词"
+  },
+  "tit": {
+    "gloss": "山雀",
+    "pos": "名词"
+  },
+  "fuckin": {
+    "gloss": "该死的（粗口）",
+    "pos": "形容词"
+  }
+}

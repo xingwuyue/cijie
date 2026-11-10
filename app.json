@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "词阶",
+    "slug": "cijie",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "cijie",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.cijie.vocab"
+    },
+    "android": {
+      "package": "app.cijie.vocab",
+      "adaptiveIcon": {
+        "backgroundColor": "#143F38",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png",
+      "name": "词阶",
+      "shortName": "词阶",
+      "lang": "zh-CN",
+      "themeColor": "#F3F0E8",
+      "backgroundColor": "#F3F0E8",
+      "display": "standalone",
+      "description": "按词频分阶，在句子里学英语单词。"
+    },
+    "plugins": ["expo-router", "expo-status-bar"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
